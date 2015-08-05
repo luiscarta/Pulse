@@ -326,8 +326,9 @@ nav ul #publicar_nav a.disabled {
 	}
 	#contenido .item 
 	{
-		width: 49%;
+		width: 45%;
 		float: left;
+		margin-left: 2%;
 	}
 	#contenido .item:nth-child(odd){
 		margin-right: 2%;

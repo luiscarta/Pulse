@@ -1,6 +1,4 @@
 $(function(){
-	$('footer .logos').load('logosfooter.html');
-
 	$.get('usuario.json', function(info) {
 		var avatar   = new Image();
 		avatar.src   = info.avatar;

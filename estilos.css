@@ -93,11 +93,11 @@ footer p:last-child
 {
 	margin-top: 0;
 }
-footer p:last-child:after
+footer p:last-child::after
 {
 	content: " -";
 }
-footer p:last-child:before
+footer p:last-child::before
 {
 	content: "- ";
 }
